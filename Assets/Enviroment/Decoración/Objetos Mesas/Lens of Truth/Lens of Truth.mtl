@@ -1,0 +1,117 @@
+# Blender MTL File: 'None'
+
+# Material Count: 6
+
+
+
+newmtl material-00B8ACAC
+
+Ns 96.078431
+
+Ka 0.000000 0.000000 0.000000
+
+Kd 0.640000 0.640000 0.640000
+
+Ks 0.500000 0.500000 0.500000
+
+Ni 1.000000
+d 1.000000
+
+illum 0
+
+map_Kd textures//i_stex22a_0.png
+
+
+
+newmtl material-0101703C
+
+Ns 96.078431
+
+Ka 0.000000 0.000000 0.000000
+
+Kd 0.640000 0.640000 0.640000
+
+Ks 0.500000 0.500000 0.500000
+
+Ni 1.000000
+d 1.000000
+
+illum 0
+
+map_Kd textures//i_stex22a_0.png
+
+
+
+newmtl material-010CF21E
+
+Ns -3.921569
+
+Ka 0.000000 0.000000 0.000000
+
+Kd 0.640000 0.640000 0.640000
+
+Ks 0.500000 0.500000 0.500000
+
+Ni -1.000000
+d 1.000000
+
+illum 0
+
+map_Kd textures//i_stex22a_0.png
+
+
+
+newmtl material-01E3B723
+
+Ns 96.078431
+
+Ka 0.000000 0.000000 0.000000
+
+Kd 0.640000 0.640000 0.640000
+
+Ks 0.500000 0.500000 0.500000
+
+Ni 1.000000
+d 1.000000
+
+illum 0
+
+map_Kd textures//i_stex22a_0.png
+
+
+
+newmtl material-026EA292
+
+Ns 96.078431
+
+Ka 0.000000 0.000000 0.000000
+
+Kd 0.640000 0.640000 0.640000
+
+Ks 0.500000 0.500000 0.500000
+
+Ni 1.000000
+d 1.000000
+
+illum 0
+
+map_Kd textures//i_stex22a_0.png
+
+
+
+newmtl material-027E1210
+
+Ns 96.078431
+
+Ka 0.000000 0.000000 0.000000
+
+Kd 0.640000 0.640000 0.640000
+
+Ks 0.500000 0.500000 0.500000
+
+Ni 1.000000
+d 1.000000
+
+illum 0
+
+map_Kd textures//i_stex22a_0.png

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <authoring_tool>N3DSCmbViewer - Experimental Cmb Viewer v0.2.6</authoring_tool>
+        </contributor>
+        <created>2021-02-05T18:07:16Z</created>
+        <modified>2021-02-05T18:07:16Z</modified>
+        <unit meter="0.01" name="centimeter" />
+        <up_axis>Y_UP</up_axis>
+    </asset>
+    <library_images>
+        <image id="image-grass05_model_0-34209629" name="image-grass05_model_0-34209629">
+            <init_from>grass05_model_0_0.png</init_from>
+        </image>
+    </library_images>
+    <library_effects>
+        <effect id="effect-default" name="effect-default">
+            <profile_COMMON>
+                <technique sid="COMMON">
+                    <phong>
+                        <diffuse>
+                            <color>1.0 1.0 1.0 1.0</color>
+                        </diffuse>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+        <effect id="effect-grass05_model_0-34209629" name="effect-grass05_model_0-34209629">
+            <profile_COMMON>
+                <newparam sid="surface-grass05_model_0-34209629">
+                    <surface type="2D">
+                        <init_from>image-grass05_model_0-34209629</init_from>
+                    </surface>
+                </newparam>
+                <newparam sid="sampler-grass05_model_0-34209629">
+                    <sampler2D>
+                        <source>surface-grass05_model_0-34209629</source>
+                        <wrap_s>WRAP</wrap_s>
+                        <wrap_t>WRAP</wrap_t>
+                        <minfilter>LINEAR</minfilter>
+                        <magfilter>LINEAR</magfilter>
+                    </sampler2D>
+                </newparam>
+                <technique sid="COMMON">
+                    <phong>
+                        <diffuse>
+                            <texture texture="sampler-grass05_model_0-34209629" texcoord="TEXCOORD0" />
+                        </diffuse>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+    </library_effects>
+    <library_materials>
+        <material id="material-315B15FB">
+            <instance_effect url="#effect-grass05_model_0-34209629" />
+        </material>
+    </library_materials>
+    <library_geometries>
+        <geometry id="geom-0E7938E5" name="geom-0E7938E5">
+            <mesh>
+                <source id="geom-0E7938E5-pos">
+                    <float_array id="geom-0E7938E5-pos-array" count="135">23.67 68.00 -74.86 5.56 -8.80 2.53 -67.57 53.29 47.82 -13.16 66.01 -78.10 -3.01 -9.22 2.23 38.12 73.65 62.45 -69.98 70.61 29.01 0.34 -9.16 -0.66 77.31 68.50 20.96 28.12 52.13 -76.18 -12.56 -4.88 7.79 77.83 30.51 21.73 -57.70 29.57 71.57 53.04 47.55 53.31 -0.14 -3.41 -8.17 60.47 19.96 -64.42 -22.45 8.99 -15.33 -0.32 2.21 11.45 67.90 1.98 -26.44 30.63 12.43 -14.65 27.98 21.84 74.93 -84.69 20.50 -9.88 0.31 11.31 34.73 7.34 1.56 -8.15 -14.81 29.95 -83.49 -71.81 31.02 13.70 16.23 -3.31 8.81 -6.23 1.45 -1.18 27.98 21.84 74.93 -6.16 1.86 81.90 -84.69 20.50 -9.88 -57.92 0.15 -51.03 60.47 19.96 -64.42 -72.64 10.55 -33.45 17.60 -3.68 12.51 -22.13 56.80 -9.29 -10.98 12.33 91.53 1.89 -4.69 -14.59 -0.78 53.67 33.76 59.78 7.73 -67.20 -13.55 -4.73 11.72 27.72 51.06 -18.68 60.29 15.41 65.03 -11.21 -6.15 -17.79 18.75 56.92 21.56 </float_array>
+                    <technique_common>
+                        <accessor source="#geom-0E7938E5-pos-array" count="45" stride="3">
+                            <param name="X" type="float" />
+                            <param name="Y" type="float" />
+                            <param name="Z" type="float" />
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="geom-0E7938E5-texcoord">
+                    <float_array id="geom-0E7938E5-texcoord-array" count="90">0.02 0.01 0.99 0.01 0.99 0.98 0.99 0.98 0.99 0.01 0.02 0.01 0.02 0.01 0.99 0.01 0.99 0.98 0.02 0.01 0.99 0.01 0.99 0.98 0.99 0.98 0.02 0.01 0.99 0.01 0.99 0.98 0.64 0.01 0.99 0.01 0.01 0.01 0.59 0.01 0.99 0.99 0.99 0.98 0.55 0.01 0.99 0.01 0.99 0.98 0.02 0.01 0.99 0.01 0.99 0.01 0.99 0.98 0.01 0.01 0.99 0.99 0.01 0.01 0.99 0.99 0.01 0.01 0.01 0.99 0.45 0.48 0.99 0.99 0.01 0.99 0.49 0.45 0.99 0.99 0.01 0.99 0.49 0.45 0.01 0.01 0.01 0.99 0.45 0.48 </float_array>
+                    <technique_common>
+                        <accessor source="#geom-0E7938E5-texcoord-array" count="45" stride="2">
+                            <param name="S" type="float" />
+                            <param name="T" type="float" />
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="geom-0E7938E5-colors">
+                    <float_array id="geom-0E7938E5-colors-array" count="180">0.67 0.67 0.61 1.00 0.20 0.23 0.16 1.00 0.50 0.50 0.50 1.00 0.67 0.67 0.61 1.00 0.20 0.23 0.16 1.00 0.67 0.67 0.63 1.00 0.60 0.56 0.42 1.00 0.20 0.23 0.16 1.00 0.50 0.50 0.50 1.00 0.60 0.56 0.42 1.00 0.20 0.23 0.16 1.00 0.50 0.50 0.50 1.00 0.50 0.50 0.50 1.00 0.60 0.56 0.42 1.00 0.50 0.50 0.50 1.00 0.33 0.34 0.29 1.00 0.50 0.50 0.50 1.00 0.20 0.23 0.16 1.00 0.33 0.34 0.29 1.00 0.50 0.50 0.50 1.00 0.50 0.50 0.50 1.00 0.33 0.34 0.29 1.00 0.50 0.50 0.50 1.00 0.20 0.23 0.16 1.00 0.50 0.50 0.50 1.00 0.50 0.50 0.50 1.00 0.20 0.23 0.16 1.00 0.20 0.23 0.16 1.00 0.50 0.50 0.50 1.00 0.50 0.50 0.50 1.00 0.33 0.34 0.29 1.00 0.33 0.34 0.29 1.00 0.33 0.34 0.29 1.00 0.33 0.34 0.29 1.00 0.20 0.23 0.16 1.00 0.78 0.78 0.76 1.00 0.33 0.34 0.29 1.00 0.20 0.23 0.16 1.00 0.50 0.50 0.50 1.00 0.33 0.34 0.29 1.00 0.20 0.23 0.16 1.00 0.50 0.50 0.50 1.00 0.33 0.34 0.29 1.00 0.20 0.23 0.16 1.00 0.78 0.78 0.76 1.00 </float_array>
+                    <technique_common>
+                        <accessor source="#geom-0E7938E5-colors-array" count="45" stride="4">
+                            <param name="R" type="float" />
+                            <param name="G" type="float" />
+                            <param name="B" type="float" />
+                            <param name="A" type="float" />
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="geom-0E7938E5-vtx">
+                    <input semantic="POSITION" source="#geom-0E7938E5-pos" />
+                </vertices>
+                <triangles count="48" material="material-315B15FB-symbol">
+                    <input semantic="VERTEX" source="#geom-0E7938E5-vtx" offset="0" />
+                    <input semantic="TEXCOORD" source="#geom-0E7938E5-texcoord" offset="0" />
+                    <input semantic="COLOR" source="#geom-0E7938E5-colors" offset="0" />
+                    <p>0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 19 29 22 30 31 16 32 33 34 35 36 37 38 39 40 41 42 43 44 </p>
+                </triangles>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_visual_scenes>
+        <visual_scene id="default">
+            <node id="node-0E7938E5" name="node-0E7938E5">
+                <translate>0.0 0.0 0.0</translate>
+                <rotate>0.0 0.0 1.0 0.0</rotate>
+                <rotate>0.0 1.0 0.0 0.0</rotate>
+                <rotate>1.0 0.0 0.0 0.0</rotate>
+                <scale>1.0 1.0 1.0</scale>
+                <instance_geometry url="#geom-0E7938E5">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="material-315B15FB-symbol" target="#material-315B15FB" />
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#default" />
+    </scene>
+</COLLADA>
